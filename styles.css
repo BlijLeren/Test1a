@@ -87,7 +87,6 @@ body {
     position: fixed;
     width: 100vw;
     background: rgba(0,0,0,0.85);
-    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,12 +130,11 @@ body {
 .popup .readmore-title {
     text-align: left;
     width: 80vw;
-    max-width: 700px;
     background: none;
     color: #fff;
     margin: 1em 0 0.5em 0;
 }
-
+/* 
 @media (max-width: 800px) {
     .popup .readmore-title {
         font-size: 1.1em;
@@ -149,7 +147,7 @@ body {
         height: 36px;
         font-size: 1.5em;
     }
-}
+} */
 
 .popup-closing {
     opacity: 0 !important;
